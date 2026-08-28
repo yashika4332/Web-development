@@ -1,0 +1,145 @@
+/* Previous HTML Submission: Take your registration.html file from Assignment 01 and apply CSS to make it look
+like a clean student registration form.
+Focus particularly on Flexbox, Display, Box Model, Typography, and Positioning.
+• Create a separate external stylesheet: registration.css.
+• Create a main form container and use the Box Model to add width, padding, margin, and border.
+• Style labels, text inputs, email input, password input, date input, radio buttons, checkboxes, select dropdown,
+textarea, submit button, and reset button.
+• Use Flexbox to arrange at least one part of the form, such as gender options, programming-language checkboxes,
+or buttons.
+• Use display appropriately for form elements.
+• Use different colors for the form background, input fields, buttons, and headings.
+• Apply font family, font size, font weight, and text alignment.
+• Use at least one CSS positioning property, such as position: relative or position: absolute.
+• Use appropriate CSS units such as px, %, rem, or vh/vw.
+Expected Result: The final form should look substantially different from the browser's default HTML form */
+
+
+
+h1{
+    color: rgb(47, 46, 46);
+    font-style: italic;
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgb(205, 218, 214);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: Arial,  sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.intro input,
+.dob input {
+    width: 100%;
+    height: 28px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #7a7b7b;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+
+.container {
+    border: 2px solid rgb(101, 103, 102);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 30px;
+
+    width: 65%;
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(243, 242, 242);
+}
+.gender{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.fav{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.fav input {
+    width: 16px;
+    height: 16px;
+}
+
+ .fav div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.city{
+    margin:10px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+.city select{
+     border: 1px solid #9aa9a4;
+     border-radius :6px;
+     padding-left: 8px;
+     height: 25px;
+
+}
+.about{
+   
+    display: flex;
+    flex-direction: column;
+}
+.about label{
+    padding-bottom: 5px;
+}
+.about textarea{
+     border: 1px solid #9aa9a4;
+    border-radius: 3px;
+     width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+ position: relative;
+    left:10px;
+    text-align: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+
+}
+.button input{
+     border: 1px solid #9aa9a4;
+    margin:20px;
+    height:30px;
+    width:70px;
+    border-radius: 30px;
+    background-color: rgb(231, 233, 236);
+
+}
+.button input[type="submit"]:hover{
+    background-color: rgb(173, 176, 169);
+}
+.button input[type="reset"]:hover{
+    background-color: rgb(167, 169, 168);
+}
+label{
+    font-style: oblique;
+    font-weight: 540;
+}
+

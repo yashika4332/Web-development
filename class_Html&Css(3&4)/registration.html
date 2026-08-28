@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registration.css">
+  <title>Student Registration Form</title>
+</head>
+
+<body>
+  <h1>Student Registration Form</h1>
+  <div class="container">
+    <form>
+      <div class="intro">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" value="" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" value="" required>
+        <label for="password">Password</label>
+
+        <input type="password" id="password" name="password" value="" required>
+      </div>
+      <div class="dob">
+        <label for="Date of Birth">Date of Birth</label>
+        <input type="date" id="Date of Birth" name="Date of Birth" value="">
+      </div>
+      <div class="gender">
+        <label for="Gender">Gender</label>
+        <input type="radio" id="Male" name="gender" value="">
+        <label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender" value="">
+        <label for="Female">Female</label>
+      </div>
+      <div class="fav">
+        <label for="Fav programming Language">Favourite Programming Language</label>
+        <div>
+          <input type="checkbox" id="Html" name="fav programming Language" value="">
+          <label for="Html">Html</label>
+        </div>
+        <div>
+          <input type="checkbox" id="CSS" name="fav programming Language" value="">
+          <label for="CSS">CSS</label>
+        </div>
+        <div>
+          <input type="checkbox" id="Javascript" name="fav programming Language" value="">
+          <label for="Javascript">Javascript</label>
+        </div>
+      </div>
+      <div class="city">
+        <label for="City">Select City</label>
+
+        <select id="City" name="City">
+          <option value="Karachi">Karachi</option>
+          <option value="Islamabad">Islamabad</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Rawalpindi">Rawalpindi</option>
+        </select>
+      </div>
+
+      <div class="about">
+        <label for="about">About Yourself</label>
+        <textarea name="about" rows="6"  placeholder="tell us something about yourself"></textarea>
+      </div>
+
+      <div class="button">
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </div>
+
+    </form>
+  </div>
+</body>
+
+</html>

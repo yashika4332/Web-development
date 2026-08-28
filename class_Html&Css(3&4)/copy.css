@@ -1,0 +1,157 @@
+#heading {
+    text-align: center;
+    padding: 45px;
+    color: white;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 100px;
+    color: white;
+    padding-top: 30px;
+}
+
+#heading p {
+    color: whitesmoke;
+}
+
+.container1 {
+    border: 1px solid black;
+    height: 390px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: URL("blue-background.svg");
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+
+}
+
+#button {
+    border: 1px solid black;
+
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 1px;
+    margin-top: 20px;
+    width: 89%;
+
+
+}
+
+#first {
+    width: 80px;
+    border: 1px solid rgb(98, 114, 162);
+    border-radius: 20px;
+    height: 70px;
+
+}
+
+#resp {
+    border: 1px;
+    width: 290px;
+    height: 250px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+
+#second {
+    width: 80px;
+    border: 1px solid rgb(98, 114, 162);
+    border-radius: 20px;
+    height: 70px;
+
+}
+
+#power {
+    border: 1px;
+    width: 290px;
+    height: 250px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: rgb(250, 250, 250);
+
+    border-radius: 10px;
+
+}
+
+#third {
+    width: 85px;
+    border: 1px solid rgb(98, 114, 162);
+    border-radius: 20px;
+    height: 70px;
+}
+
+#prof {
+    border: 1px;
+    width: 290px;
+    height: 250px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: rgb(250, 250, 250);
+
+    border-radius: 10px;
+}
+
+.link div {
+    border: 1px solid black;
+
+
+}
+
+.shift {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+
+
+}
+
+.shift a {
+    text-decoration: none;
+    border: 1px solid white;
+    align-content: center;
+    width: 120px;
+    height: 30px;
+    border-radius: 1.8px;
+}
+
+#a1 {
+    background-color: white;
+    color: black;
+
+}
+
+#a2 {
+    color: white;
+}
+
+h3 {
+    color: rgb(44, 44, 44);
+}
+
+.container2 p {
+    color: rgb(83, 83, 83);
+}
+
+.link a {
+
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+    height: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
