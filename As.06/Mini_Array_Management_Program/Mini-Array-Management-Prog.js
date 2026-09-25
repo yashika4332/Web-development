@@ -1,0 +1,20 @@
+const product = ["Laptop","Mouse","Keyboard","Monitor","Headphones"];
+console.log("Total products: "+(product.length));
+console.log("First product: "+(product.at(0)));
+console.log("Last product: "+(product.at(4)));
+product.push("Earphones");
+product.unshift("Wireless Charger");
+product.pop();
+product.shift();
+const storage = ["USB","RAM"];
+let combine = storage.concat(product);
+console.log("Combined Array: "+combine);
+let res = product.slice(0,3);
+console.log(res);
+product.splice(4,1,"CPU");
+console.log(product.join());
+const printArray = (product) =>{
+console.log(product);
+};
+console.log(Array.isArray(product));
+printArray(product);
